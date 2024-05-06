@@ -1,3 +1,7 @@
+from decorator import input_error
+
+
+@input_error
 def show_phone (args, contacts):
     name, = args
     if name in contacts:

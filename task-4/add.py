@@ -1,3 +1,7 @@
+from decorator import input_error
+
+
+@input_error
 def add_contact(args, contacts):
     name, phone = args
     if not name in contacts:
