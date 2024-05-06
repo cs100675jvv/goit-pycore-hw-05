@@ -36,6 +36,9 @@ def main():
         elif command == "delete":
             delete_contact(args, contacts)
 
+        elif command == "show":
+            show_phone(args, contacts)
+
         elif command == "change":
             change_contact(args, contacts)
 
